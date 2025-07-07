@@ -1,0 +1,24 @@
+# SNAP - Social Network Analysis and Profiling Tool Requirements
+
+# Core dependencies
+requests>=2.25.1
+beautifulsoup4>=4.9.3
+colorama>=0.4.4
+
+# Network and proxy support
+pysocks>=1.7.1
+requests[socks]>=2.25.1
+
+# Parsing and data handling
+lxml>=4.6.3
+json5>=0.9.5
+
+# Command line interface
+argparse>=1.4.0
+
+# Security and encryption
+cryptography>=3.4.7
+
+# Optional - for advanced features
+pillow>=8.2.0  # For image processing
+python-whois>=0.7.3  # For domain lookups
