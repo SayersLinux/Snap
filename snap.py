@@ -70,11 +70,6 @@ class Snap:
                     sys.exit(1)
     
     def run(self):
-        # Check if running on Linux
-        if not check_platform():
-            print(f"{Fore.RED}[!] Error: This tool only works on Linux systems.")
-            sys.exit(1)
-            
         # Check internet connection
         if not check_connection():
             print(f"{Fore.RED}[!] Error: No internet connection.")
